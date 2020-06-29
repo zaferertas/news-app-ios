@@ -18,5 +18,5 @@
 - Swift 5.2
 
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-5.2-orange.svg
 [swift-url]: https://swift.org/
