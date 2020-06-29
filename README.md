@@ -1,4 +1,4 @@
-# Product Name
+# News App
 > A demo app showing news fetched from NewsApi using Swiftui and Combine
 
 [![Swift Version][swift-image]][swift-url]
