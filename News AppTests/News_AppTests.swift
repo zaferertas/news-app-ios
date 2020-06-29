@@ -2,7 +2,7 @@
 //  News_AppTests.swift
 //  News AppTests
 //
-//  Created by zafer ertas on 4.05.2020.
+//  Created by zafer ertas on 17.06.2020.
 //  Copyright © 2020 zafer ertas. All rights reserved.
 //
 
