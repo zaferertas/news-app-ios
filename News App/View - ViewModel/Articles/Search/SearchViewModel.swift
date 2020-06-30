@@ -30,9 +30,7 @@ class SearchViewModel: ObservableObject {
         .removeDuplicates()
         .eraseToAnyPublisher()
         .flatMap {  (searchString) -> AnyPublisher<ArticlesResponse, Error> in
-            self.state = .loading
-            print("searchString: ", searchString )
-
+            //dself.state = .loading
             return self.service.fetchNews(endpoint: EndPoint.search(searchString: searchString))
         }
         .sink(
