@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ECAAB5A2C3C33FF0028489A /* NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAAB592C3C33FF0028489A /* NewsApp.swift */; };
 		880D223924A7620F00E31174 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D223824A7620F00E31174 /* SearchViewModel.swift */; };
 		880D223F24A77E2200E31174 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D223E24A77E2200E31174 /* Source.swift */; };
 		880D224124A77E3600E31174 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D224024A77E3600E31174 /* Article.swift */; };
@@ -14,8 +15,6 @@
 		880D224524A785DB00E31174 /* SourceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D224424A785DB00E31174 /* SourceRowView.swift */; };
 		880D224724A785E700E31174 /* SourceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D224624A785E700E31174 /* SourceDetailsView.swift */; };
 		88545E5524A51AB100FB88DE /* SourcesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88545E5424A51AB100FB88DE /* SourcesViewModel.swift */; };
-		885C2C7A246040090050A174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C2C79246040090050A174 /* AppDelegate.swift */; };
-		885C2C7C246040090050A174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C2C7B246040090050A174 /* SceneDelegate.swift */; };
 		885C2C802460400B0050A174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885C2C7F2460400B0050A174 /* Assets.xcassets */; };
 		885C2C832460400B0050A174 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885C2C822460400B0050A174 /* Preview Assets.xcassets */; };
 		885C2C862460400B0050A174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885C2C842460400B0050A174 /* LaunchScreen.storyboard */; };
@@ -62,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1ECAAB592C3C33FF0028489A /* NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp.swift; sourceTree = "<group>"; };
 		880D223824A7620F00E31174 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		880D223E24A77E2200E31174 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		880D224024A77E3600E31174 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -70,8 +70,6 @@
 		880D224624A785E700E31174 /* SourceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDetailsView.swift; sourceTree = "<group>"; };
 		88545E5424A51AB100FB88DE /* SourcesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewModel.swift; sourceTree = "<group>"; };
 		885C2C76246040090050A174 /* News App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		885C2C79246040090050A174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Supporting Fİles/AppDelegate.swift"; sourceTree = "<group>"; };
-		885C2C7B246040090050A174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "Supporting Fİles/SceneDelegate.swift"; sourceTree = "<group>"; };
 		885C2C7F2460400B0050A174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885C2C822460400B0050A174 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		885C2C852460400B0050A174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 		8874C1C524AA5A60006921F4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		88A7B11C2498FB950002B3DD /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		88A7B11E249A91510002B3DD /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		88DCF258246703870051C0CE /* News App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "News App.entitlements"; sourceTree = "<group>"; };
 		88DCF25A246703870051C0CE /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		88EFB674249FA5BA0099DB19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88EFB678249FA69A0099DB19 /* SourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesView.swift; sourceTree = "<group>"; };
@@ -188,8 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				885C2C872460400B0050A174 /* Info.plist */,
-				885C2C79246040090050A174 /* AppDelegate.swift */,
-				885C2C7B246040090050A174 /* SceneDelegate.swift */,
+				1ECAAB592C3C33FF0028489A /* NewsApp.swift */,
 				8874E557248E729D00BE4BE6 /* Model */,
 				8874E559248E72CB00BE4BE6 /* View - ViewModel */,
 				8874E558248E72B200BE4BE6 /* Service */,
@@ -296,7 +292,6 @@
 				8874C1B924A8BC14006921F4 /* Resources */,
 				885C2C7F2460400B0050A174 /* Assets.xcassets */,
 				885C2C842460400B0050A174 /* LaunchScreen.storyboard */,
-				88DCF258246703870051C0CE /* News App.entitlements */,
 			);
 			name = "Supporting Files";
 			path = "Supporting Fİles";
@@ -437,7 +432,6 @@
 			files = (
 				880D224124A77E3600E31174 /* Article.swift in Sources */,
 				885C2CB0246079620050A174 /* ApiService.swift in Sources */,
-				885C2C7A246040090050A174 /* AppDelegate.swift in Sources */,
 				88A7B11D2498FB950002B3DD /* EndPoint.swift in Sources */,
 				880D224724A785E700E31174 /* SourceDetailsView.swift in Sources */,
 				88EFB679249FA69A0099DB19 /* SourcesView.swift in Sources */,
@@ -460,8 +454,8 @@
 				880D224524A785DB00E31174 /* SourceRowView.swift in Sources */,
 				8874C1BD24A8C9FE006921F4 /* SampleData.swift in Sources */,
 				880D223F24A77E2200E31174 /* Source.swift in Sources */,
-				885C2C7C246040090050A174 /* SceneDelegate.swift in Sources */,
 				88EFB67F24A256870099DB19 /* ImageView.swift in Sources */,
+				1ECAAB5A2C3C33FF0028489A /* NewsApp.swift in Sources */,
 				885C2CAE246078E80050A174 /* TopHeadlinesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -535,6 +530,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -545,7 +541,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -559,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -573,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -595,6 +593,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -605,7 +604,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -613,7 +613,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
